@@ -1,0 +1,37 @@
+services:
+  db:
+    image: postgres:16
+    container_name: manager_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: filesystem_history
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    networks:
+      - manager_net
+
+  server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: manager_server
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - "5555:5555"
+    volumes:
+      - ./config/server_config.docker.json:/app/config/server_config.json:ro
+      - ./storage:/data/storage
+      - ./logs:/app/logs
+    networks:
+      - manager_net
+
+networks:
+  manager_net:
+    driver: bridge
+
+volumes:
+  pgdata:

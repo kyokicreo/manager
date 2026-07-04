@@ -1,0 +1,4 @@
+C:/Users/kyoki/Desktop/manager/build/CMakeFiles/server.dir
+C:/Users/kyoki/Desktop/manager/build/CMakeFiles/client.dir
+C:/Users/kyoki/Desktop/manager/build/CMakeFiles/edit_cache.dir
+C:/Users/kyoki/Desktop/manager/build/CMakeFiles/rebuild_cache.dir

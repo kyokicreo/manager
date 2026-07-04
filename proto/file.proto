@@ -1,0 +1,20 @@
+syntax = "proto3";
+package fs;
+
+enum CommandType {
+  LIST     = 0;
+  CREATE   = 1;
+  REMOVE   = 2;
+  HISTORY  = 3;
+}
+
+message Command {
+  CommandType type = 1;
+  string path = 2;
+}
+
+message Response {
+  bool success = 1;
+  string message = 2;
+  repeated string data = 3;
+}

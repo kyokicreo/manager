@@ -1,0 +1,17 @@
+{
+  "port": 5555,
+  "root_dir": "/data/storage",
+  "database": {
+    "host": "db",
+    "port": 5432,
+    "dbname": "filesystem_history",
+    "user": "postgres",
+    "password": "postgres"
+  },
+  "logging": {
+    "level": "info",
+    "file": "logs/server.log",
+    "max_size_mb": 5,
+    "max_files": 3
+  }
+}

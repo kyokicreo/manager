@@ -1,0 +1,4 @@
+build/
+storage/
+logs/
+*.exe
