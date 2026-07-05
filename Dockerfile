@@ -18,7 +18,7 @@ COPY . .
 
 RUN mkdir build && cd build && \
     cmake .. -DCMAKE_BUILD_TYPE=Release && \
-    cmake --build . --target server
+    cmake --build .
 
 EXPOSE 5555
 

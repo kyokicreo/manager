@@ -1,0 +1,5 @@
+{
+  "server_host": "server",
+  "server_port": 5555,
+  "timeout_ms": 5000
+}

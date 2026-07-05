@@ -29,6 +29,22 @@ services:
     networks:
       - manager_net
 
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: manager_client
+    entrypoint: ["/app/build/client"]
+    command: ["/app/config/client_config.json"]
+    depends_on:
+      - server
+    volumes:
+      - ./config/client_config.docker.json:/app/config/client_config.json:ro
+    networks:
+      - manager_net
+    stdin_open: true
+    tty: true
+
 networks:
   manager_net:
     driver: bridge
