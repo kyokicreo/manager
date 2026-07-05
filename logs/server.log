@@ -365,4 +365,48 @@
 [2026-07-05 11:50:31.673] [server] [info] Client disconnected: 172.22.0.1 (End of file)
 [2026-07-05 11:50:37.084] [server] [info] Client connected: 172.22.0.1
 [2026-07-05 11:50:37.085] [server] [info] [172.22.0.1] command=HISTORY path='' success=true message='OK'
-[2026-07-05 11:50:37.0
+[2026-07-05 11:50:37.0[2026-07-05 13:41:02.905] [server] [info] Server starting on port 5555, root_dir='/data/storage'
+[2026-07-05 13:41:02.905] [server] [info] Connecting to database...
+[2026-07-05 13:41:02.915] [server] [warning] Database connection attempt 1/10 failed: connection to server at "db" (172.22.0.2), port 5432 failed: FATAL:  the database system is starting up
+. Retrying in 2s...
+[2026-07-05 13:41:04.946] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
+[2026-07-05 13:41:04.946] [server] [info] Ensuring database table exists...
+[2026-07-05 13:41:04.953] [server] [info] Database table 'operations' is ready
+[2026-07-05 13:41:04.953] [server] [info] Server is running. Waiting for connections...
+[2026-07-05 13:41:18.518] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:41:18.525] [server] [info] [172.22.0.1] command=CREATE path='""' success=true message='Directory created'
+[2026-07-05 13:41:18.545] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:41:58.239] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:41:58.242] [server] [info] [172.22.0.1] command=DELETE path='''' success=false message='Path does not exist'
+[2026-07-05 13:41:58.249] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:42:05.681] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:42:05.689] [server] [info] [172.22.0.1] command=DELETE path='""' success=true message='Deleted'
+[2026-07-05 13:42:05.692] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:42:13.782] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:42:13.784] [server] [info] [172.22.0.1] command=CREATE path='DUR' success=true message='Directory created'
+[2026-07-05 13:42:13.787] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:42:39.985] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:42:39.987] [server] [warning] Client 172.22.0.1 sent an invalid message, dropping connection
+[2026-07-05 13:45:45.964] [se[2026-07-05 13:48:42.087] [server] [info] Server starting on port 5555, root_dir='/data/storage'
+[2026-07-05 13:48:42.087] [server] [info] Connecting to database...
+[2026-07-05 13:48:42.105] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
+[2026-07-05 13:48:42.105] [server] [info] Ensuring database table exists...
+[2026-07-05 13:48:42.108] [server] [info] Database table 'operations' is ready
+[2026-07-05 13:48:42.108] [server] [info] Server is running. Waiting for connections...
+[2026-07-05 13:49:20.728] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:49:20.743] [server] [info] [172.22.0.1] command=HISTORY path='' success=true message='OK'
+[2026-07-05 13:49:20.752] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:49:25.100] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:49:25.101] [server] [info] [172.22.0.1] command=HISTORY path='JFJAS' success=true message='OK'
+[2026-07-05 13:49:25.106] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:49:30.136] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:49:30.139] [server] [info] [172.22.0.1] command=CREATE path='ПАПКА' success=true message='Directory created'
+[2026-07-05 13:49:30.148] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:49:44.919] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:49:44.921] [server] [info] [172.22.0.1] command=CREATE path='пакка' success=true message='Directory created'
+[2026-07-05 13:49:44.927] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:49:55.378] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:49:55.384] [server] [info] [172.22.0.1] command=DELETE path='пакка' success=true message='Deleted'
+[2026-07-05 13:49:55.390] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 13:50:11.589] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 13:50:11.590] [server] [info] [172.22.0.1] command=DELETE path
