@@ -343,4 +343,26 @@
 [2026-07-04 07:16:36.015] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
 [2026-07-04 07:16:36.015] [server] [info] Ensuring database table exists...
 [2026-07-04 07:16:36.016] [server] [info] Database table 'operations' is ready
-[2026-07-04 07:16:36.016] [server] [info] Server is running. Waiting for connections
+[2026-07-04 07:16:36.016] [server] [info] Server is running. Waiting for connections[2026-07-05 11:48:44.881] [server] [info] Server starting on port 5555, root_dir='/data/storage'
+[2026-07-05 11:48:44.882] [server] [info] Connecting to database...
+[2026-07-05 11:48:44.891] [server] [warning] Database connection attempt 1/10 failed: connection to server at "db" (172.22.0.3), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+. Retrying in 2s...
+[2026-07-05 11:48:46.923] [server] [info] Connected to PostgreSQL at db:5432, database 'fil[2026-07-05 11:50:05.276] [server] [info] Server starting on port 5555, root_dir='/data/storage'
+[2026-07-05 11:50:05.276] [server] [info] Connecting to database...
+[2026-07-05 11:50:05.289] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
+[2026-07-05 11:50:05.289] [server] [info] Ensuring database table exists...
+[2026-07-05 11:50:05.290] [server] [info] Database table 'operations' is ready
+[2026-07-05 11:50:05.290] [server] [info] Server is running. Waiting for connections...
+[2026-07-05 11:50:13.817] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 11:50:13.832] [server] [info] [172.22.0.1] command=HISTORY path='' success=true message='OK'
+[2026-07-05 11:50:13.840] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 11:50:22.885] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 11:50:22.887] [server] [info] [172.22.0.1] command=CREATE path='DGGDGD' success=true message='Directory created'
+[2026-07-05 11:50:22.890] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 11:50:31.664] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 11:50:31.670] [server] [info] [172.22.0.1] command=DELETE path='DGGDGD' success=true message='Deleted'
+[2026-07-05 11:50:31.673] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-05 11:50:37.084] [server] [info] Client connected: 172.22.0.1
+[2026-07-05 11:50:37.085] [server] [info] [172.22.0.1] command=HISTORY path='' success=true message='OK'
+[2026-07-05 11:50:37.0
