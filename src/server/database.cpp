@@ -94,6 +94,9 @@ std::vector<std::string> Database::fetchHistory(int limit)
         }
 
         txn.commit();
+
+        std::reverse(result.begin(), result.end());
+
     }
     catch (const std::exception& e)
     {
