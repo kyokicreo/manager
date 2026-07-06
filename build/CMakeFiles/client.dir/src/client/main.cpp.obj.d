@@ -148,8 +148,10 @@ CMakeFiles/client.dir/src/client/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/istream.tcc \
  C:/msys64/ucrt64/include/c++/16.1.0/sstream \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/sstream.tcc \
- C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/sdkddkver.h \
- C:/msys64/ucrt64/include/excpt.h \
+ C:/msys64/ucrt64/include/c++/16.1.0/cstdint \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
+ C:/msys64/ucrt64/include/stdint.h C:/msys64/ucrt64/include/windows.h \
+ C:/msys64/ucrt64/include/sdkddkver.h C:/msys64/ucrt64/include/excpt.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdarg.h \
  C:/msys64/ucrt64/include/stdarg.h \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
@@ -366,15 +368,13 @@ CMakeFiles/client.dir/src/client/main.cpp.obj: \
  C:/msys64/ucrt64/include/stralign.h \
  C:/msys64/ucrt64/include/sec_api/stralign_s.h \
  C:/msys64/ucrt64/include/winsvc.h C:/msys64/ucrt64/include/mcx.h \
- C:/msys64/ucrt64/include/imm.h C:/msys64/ucrt64/include/spdlog/spdlog.h \
+ C:/msys64/ucrt64/include/imm.h C:/msys64/ucrt64/include/fcntl.h \
+ C:/msys64/ucrt64/include/io.h C:/msys64/ucrt64/include/spdlog/spdlog.h \
  C:/msys64/ucrt64/include/spdlog/common.h \
  C:/msys64/ucrt64/include/spdlog/details/null_mutex.h \
  C:/msys64/ucrt64/include/c++/16.1.0/atomic \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_base.h \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/atomic_lockfree_defines.h \
- C:/msys64/ucrt64/include/c++/16.1.0/cstdint \
- C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/16.1.0/include/stdint.h \
- C:/msys64/ucrt64/include/stdint.h \
  C:/msys64/ucrt64/include/c++/16.1.0/utility \
  C:/msys64/ucrt64/include/c++/16.1.0/bits/stl_relops.h \
  C:/msys64/ucrt64/include/spdlog/tweakme.h \

@@ -343,4 +343,20 @@
 [2026-07-04 07:16:36.015] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
 [2026-07-04 07:16:36.015] [server] [info] Ensuring database table exists...
 [2026-07-04 07:16:36.016] [server] [info] Database table 'operations' is ready
-[2026-07-04 07:16:36.016] [server] [info] Server is running. Waiting for connections
+[2026-07-04 07:16:36.016] [server] [info] Server is running. Waiting for connections[2026-07-06 05:02:18.265] [server] [info] Server starting on port 5555, root_dir='/data/storage'
+[2026-07-06 05:02:18.266] [server] [info] Connecting to database...
+[2026-07-06 05:02:18.304] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
+[2026-07-06 05:02:18.304] [server] [info] Ensuring database table exists...
+[2026-07-06 05:02:18.312] [server] [info] Database table 'operations' is ready
+[2026-07-06 05:02:18.312] [server] [info] Server is running. Waiting for connections[2026-07-06 05:06:46.857] [server] [info] Server starting on port 5555, root_dir='/data/storage'
+[2026-07-06 05:06:46.858] [server] [info] Connecting to database...
+[2026-07-06 05:06:46.879] [server] [info] Connected to PostgreSQL at db:5432, database 'filesystem_history'
+[2026-07-06 05:06:46.879] [server] [info] Ensuring database table exists...
+[2026-07-06 05:06:46.880] [server] [info] Database table 'operations' is ready
+[2026-07-06 05:06:46.881] [server] [info] Server is running. Waiting for connections...
+[2026-07-06 05:06:56.079] [server] [info] Client connected: 172.22.0.1
+[2026-07-06 05:06:56.083] [server] [info] [172.22.0.1] command=HISTORY path='' success=true message='OK'
+[2026-07-06 05:06:56.092] [server] [info] Client disconnected: 172.22.0.1 (End of file)
+[2026-07-06 05:07:30.714] [server] [info] Client connected: 172.22.0.1
+[2026-07-06 05:07:30.717] [server] [info] [172.22.0.1] command=CREATE path='DIR' success=false message='Path already exists'
+[2026-07-06 05:07:30.721] [server] [info] Client
