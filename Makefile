@@ -12,14 +12,12 @@ runserver:
 reassembly:
 	docker-compose down
 	docker-compose build
+
 run:
-	if exist build rmdir /s /q build
-	mkdir build
-	cd build && cmake .. -G "MinGW Makefiles" && cmake --build .
-	docker-compose down
 	docker-compose build
-	docker-compose up -d
-	.\build\client.exe .\config\client_config.json
+	docker-compose up -d db server
+	docker-compose run --rm client
+
 comp:
 	if exist build rmdir /s /q build
 	mkdir build
